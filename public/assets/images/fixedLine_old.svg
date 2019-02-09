@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="15px" viewBox="0 0 19 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>FIxedLIneGroup</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Screen-1" transform="translate(-235.000000, -547.000000)" fill-rule="nonzero" fill="#CCC">
+            <g id="Group-56" transform="translate(34.000000, 494.000000)">
+                <g id="Group-48" transform="translate(37.000000, 46.000000)">
+                    <g id="Group-49" transform="translate(145.333333, 0.000000)">
+                        <g id="Group-13" transform="translate(15.000000, 0.000000)">
+                            <g id="Group" transform="translate(4.062500, 7.312500)">
+                                <path d="M17.3112963,2.17108217 C17.0495768,1.61337299 16.5261376,1.1950911 15.9221694,1.07558199 L12.882196,0.418281886 C10.3455295,-0.139427295 7.72833389,-0.139427295 5.21179964,0.418281886 L2.07116489,1.09550018 C1.50746122,1.21500929 1.02428664,1.57353662 0.762567081,2.07149125 L0.259260231,2.94789139 C-0.0829884276,3.54543694 -0.0829884276,4.2624916 0.239127957,4.86003716 L0.963889822,6.19455556 C1.10481574,6.45349196 1.42693212,6.57300107 1.70878396,6.45349196 L4.72862506,5.25840086 C4.95008008,5.17872812 5.11113827,4.95962808 5.091006,4.70069168 L5.07087372,2.48977313 C7.68806934,1.93206395 10.4059263,1.95198214 13.0029897,2.58936406 L13.023122,2.58936406 L13.0432542,4.68077349 C13.0432542,4.91979171 13.2043124,5.13889175 13.4458997,5.21856449 L16.3852117,6.25431011 C16.6670636,6.35390104 16.9891799,6.21447374 17.1099736,5.95553733 L17.6938095,4.68077349 C17.9353968,4.16290068 17.9353968,3.54543694 17.6938095,3.02756413 L17.3112963,2.17108217 Z" id="Shape"></path>
+                                <circle id="Oval" cx="6.5" cy="7.3125" r="1"></circle>
+                                <circle id="Oval" cx="8.9375" cy="7.3125" r="1"></circle>
+                                <circle id="Oval" cx="11.375" cy="7.3125" r="1"></circle>
+                                <circle id="Oval" cx="6.5" cy="9.75" r="1"></circle>
+                                <circle id="Oval" cx="8.9375" cy="9.75" r="1"></circle>
+                                <circle id="Oval" cx="11.375" cy="9.75" r="1"></circle>
+                                <circle id="Oval" cx="6.5" cy="11.375" r="1"></circle>
+                                <circle id="Oval" cx="8.9375" cy="11.375" r="1"></circle>
+                                <circle id="Oval" cx="11.375" cy="11.375" r="1"></circle>
+                                <circle id="Oval" cx="8.9375" cy="13.8125" r="1"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

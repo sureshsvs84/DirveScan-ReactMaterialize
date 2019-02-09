@@ -1,0 +1,28 @@
+
+body{
+    color:"#66615b";
+    .box-shadow-off{
+        box-shadow:none;
+    }
+    nav a {
+        color: #66615b;
+        &:hover{
+            color: #66615b;
+
+        }
+    }
+    .btn{
+        padding: 2px 18px;
+        background-color: #68B3C8;
+        color: #FFFFFF;
+        &:hover{
+            background-color: #3091B2;
+        }
+    }
+    .footer{
+        nav{
+            background-color: transparent;
+            box-shadow: none;
+        }
+    }
+}

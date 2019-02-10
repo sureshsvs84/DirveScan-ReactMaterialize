@@ -1,59 +1,62 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { Icon } from 'react-materialize';
 class SiderBar extends React.Component{
-    render(){
+     render(){
+         const { isSideBar } = this.props;
         return(
-            <div class="sidebar" data-background-color="white" data-active-color="danger">
+            <div className={isSideBar ? 'sidebar' :' sidebar sideBarOff' } data-background-color="white" data-active-color="danger">
 
-            <div class="sidebar-wrapper">
-                <div class="logo">
-                    <a href="#" class="simple-text">
+            <div className="sidebar-wrapper">
+                <div className="logo">
+                    <a href="#" className="simple-text">
                         driveScan
                     </a>
                 </div>
 
-                <ul class="nav">
+                <ul className="nav">
                     <li>
-                        <a href="#">
-                            <i class="ti-panel"></i>
+                     <NavLink to={'/dashboard'}>
+                            <i className="material-icons">dashboard</i>
                             <p>Dashboard</p>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="/customerInfo">
-                            <i class="ti-user"></i>
+                        <NavLink to="/customerInfo">
+                            <Icon className="material-icons">account_circle</Icon>
                             <p>Customer Info</p>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="/order">
-                            <i class="ti-briefcase"></i>
+                        <NavLink to="/order">
+                        <Icon className="material-icons">local_grocery_store</Icon>
                             <p>Order</p>
-                        </a>
+                        </NavLink>
                     </li>
-                    <li class="active">
-                        <a href="/insurance">
-                            <i class="ti-view-list-alt"></i>
+                    <li>
+                        <NavLink to="/insurance">
+                            <i className="material-icons">business_center</i>
                             <p>Insurance</p>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="/vehicleCheckin">
-                            <i class="ti-text"></i>
+                        <NavLink to="/vehicleCheckin">
+                            <i className="material-icons">drive_eta</i>
                             <p>Vehicle CheckIn</p>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="/vehicleCondition">
-                            <i class="ti-pencil-alt2"></i>
+                        <NavLink to="/vehicleCondition">
+                            <i className="material-icons">rv_hookup</i>
                             <p>Vehicle Condition</p>
-                        </a>
+                        </NavLink>
                     </li>
                 
-                    <li class="active-pro">
-                        <a href="#">
-                            <i class="ti-export"></i>
+                    <li>
+                        <NavLink to="/">
+                            <i className="material-icons">alternate_email</i>
                             <p>Contact Us</p>
-                        </a>
+                        </NavLink>
                     </li>
                 </ul>
             </div>

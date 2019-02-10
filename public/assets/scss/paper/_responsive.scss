@@ -107,7 +107,16 @@
       bottom: unset;
     }
     //Temp solution
-    .sidebar{display: none;}
+    .sidebar {
+        visibility: visible;
+        transform: translate3d(0px, 0, 0);
+        transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    }
+    .sidebar.sideBarOff {
+        visibility: hidden;
+        transform: translate3d(-260px, 0, 0);
+        transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    }
     h6{
         font-size: 1em;
     }

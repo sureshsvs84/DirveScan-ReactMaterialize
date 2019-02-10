@@ -10,15 +10,20 @@ import Footer from './components/footer/footer';
 class App extends Component {  
     constructor(){
         super();
-        this.state={}
+        this.state={
+          isOpen:true
+        }
         AutoBind(this)
       }
+    handleClick = ()=>{      
+      this.setState({isOpen:!this.state.isOpen})
+    }
     render() {
         return (
         <div className="wrapper">
-          <SideBar/>
-          <div class="main-panel">
-          <Header name="Customer Lifecycle Management" onClick={this.handleClick}></Header>             
+          <SideBar isSideBar={this.state.isOpen}/>
+          <div className={this.state.isOpen ? 'main-panel' :'main-panel full-wdith'}>
+          <Header isSideBar={this.state.isOpen} name="Customer Lifecycle Management" onClick={this.handleClick}></Header>             
         
           <div class="content">
              <div class="container-fluid">
